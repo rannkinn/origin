@@ -2,7 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 
-class Scraper:
+class Scr:
     def __init__(self, site):
         self.site = site
         print(self.site)
